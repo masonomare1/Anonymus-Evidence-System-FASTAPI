@@ -6,6 +6,11 @@ Run: python main.py
 
 Then open http://localhost:3000
 """
+import lib.net
+import lib.clients
+import lib.http_session
+import lib.transport
+import lib.session
 from pathlib import Path
 
 from fastapi import FastAPI, Request

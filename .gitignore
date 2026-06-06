@@ -3,8 +3,6 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
-.env
-.env.local
 .vercel/
 
 # Raw + confidential evidence and the brief (never publish)
@@ -20,8 +18,9 @@ make_doc.py
 
 # Editor / tooling
 .idea/
-.vscode/
 
 # OS cruft
 .DS_Store
 Thumbs.db
+config.bat
+node_modules
