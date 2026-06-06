@@ -6,6 +6,7 @@ from lib.handler import handle_verify
 app = FastAPI()
 
 
+@app.post("/api/verify")
 @app.post("/")
 async def verify(request: Request):
     body = await request.json()
